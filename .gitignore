@@ -1,0 +1,13 @@
+The Playground/Library/
+The Playground/Temp/
+The Playground/UnityPackageManager/
+The Playground/The Playground.csproj
+The Playground/The Playground.sln
+Library/
+*.csproj
+*.sln
+UnityPackageManager/manifest.json
+General Playground/UnityPackageManager/manifest.json
+Inertia (Network Test)/Builds/
+Inertia (Network Test)/UnityPackageManager/
+Inertia (Network Test)/Temp/
