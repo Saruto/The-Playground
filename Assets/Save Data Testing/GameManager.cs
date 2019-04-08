@@ -10,12 +10,12 @@ public class GameManager : MonoBehaviour {
 	public int Version = 0;
 
 	// Characters
-	public Character Character1;
-	public Character Character2;
+	public Character Character1 = null;
+	public Character Character2 = null;
 	
 	// display fields
-	[SerializeField] Text Character1Text;
-	[SerializeField] Text Character2Text;
+	[SerializeField] Text Character1Text = null;
+	[SerializeField] Text Character2Text = null;
 
 	// Singleton
 	public static GameManager Instance;

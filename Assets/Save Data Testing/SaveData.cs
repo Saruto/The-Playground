@@ -109,8 +109,8 @@ public class Character {
 	public string Name;
 	public int Health;
 	public int Magic;
-	float privateFloat = 3;
-	string privateStr = "i'm private";
+	//float privateFloat = 3;
+	//string privateStr = "i'm private";
 	public List<Skill> skills = new List<Skill>();
 	public Character(string name, int health, int magic) {
 		Name = name;
