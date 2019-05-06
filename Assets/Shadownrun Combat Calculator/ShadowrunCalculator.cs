@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class ShadowrunCalculator : MonoBehaviour {
 
-	[SerializeField] int GunSkillDice;
-	[SerializeField] int GunPower;
+	[SerializeField] int GunSkillDice = default;
+	[SerializeField] int GunPower = default;
 	public enum DamageCode { NoDamage, L, M, S, D }
-	[SerializeField] DamageCode GunDamageCode;
-	[SerializeField] int GunTargetNumber;
+	[SerializeField] DamageCode GunDamageCode = default;
+	[SerializeField] int GunTargetNumber = default;
 
 
-	[SerializeField] int TargetBallisticArmor;
-	[SerializeField] int TargetBodyDice;
+	[SerializeField] int TargetBallisticArmor = default;
+	[SerializeField] int TargetBodyDice = default;
 
 
 

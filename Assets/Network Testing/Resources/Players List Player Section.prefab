@@ -187,6 +187,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68835add390de9a4c8fdfc7fba40645f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ReadyStatusImage: {fileID: 8071543721455208165}
+  NotReadySprite: {fileID: 21300000, guid: a4cdd8440f6c7924abf0855f77be0b04, type: 3}
+  IsReadySprite: {fileID: 21300000, guid: 6ee24470e8fae144f9624bac891b37e9, type: 3}
 --- !u!1 &8071543721351980002
 GameObject:
   m_ObjectHideFlags: 0
